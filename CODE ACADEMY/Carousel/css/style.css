@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+.imageCarousel .wrapper{
+    display: flex;
+    position: absolute;
+    transition: left 0.25s ease-in-out;
+}
+.imageCarousel{
+    width:640px;
+    height:480px;
+    overflow: hidden;
+    position: relative;
+    margin-top:100px;
+    margin:50px auto;
+ 
+    
+}
+img{
+   width:640px;
+   height: 480px;
+}
+.next , .prev{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    background-color: white;
+    color:brown;
+    font-size: 3em;
+    border-radius: 100px;
+    padding:5px 5px;
+    cursor: pointer;
+    opacity:0.55;
+}
+.next{
+    right:0px;
+}
+.prev{
+    left:0px;
+}
+.next:hover{
+    opacity: 1;
+    color:white;
+    background-color:brown;
+    transition: all 0.3s linear;
+}
+.prev:hover{
+    opacity: 1;
+    color:white;
+    background-color:brown;
+    transition: all 0.3s linear;
+}

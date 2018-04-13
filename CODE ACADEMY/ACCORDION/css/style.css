@@ -1,0 +1,43 @@
+button{
+    width:100%;
+    text-align: left;
+    border-radius:10px;
+    padding:10px;
+    position: relative;
+}
+button h4{
+    color:brown;
+    display: inline-block;
+}
+button span{
+    margin-left:900px;
+    color:brown;
+}
+.text p{
+   color:white;
+   font-weight:bold;
+   height: 0px;
+   
+}
+.text{
+    /* border:1px solid brown; */
+    border-radius: 10px;
+    background-color: brown;
+    /* display: none; */
+    height:0px;
+    transition: all 0.4s linear;
+}
+.active{
+    height:150px;
+}
+.fa{
+    display: block!important;
+    cursor: pointer;
+}
+span{
+    display: none!important;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right:10px;
+}
